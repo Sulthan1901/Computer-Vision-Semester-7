@@ -1,0 +1,12 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Raw Dataset & Temporary Downloads
+trashnet_raw/
+*.zip
+
+# Menyimpan file CSV & JSON saja dari dataset_final, abaikan folder gambar fisiknya
+dataset_final/train/
+dataset_final/val/
+dataset_final/test/
